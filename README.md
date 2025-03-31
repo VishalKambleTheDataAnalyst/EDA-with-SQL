@@ -1,4 +1,4 @@
-# Exploratory Data Analysis Using SQL - Analyze sales data to uncover trends and insights.
+# Exploratory Data Analysis Using SQL - Analyze sales data to uncover trends and insights. 🕵️
 Welcome to the **EDA with SQL** repository! 🚀
 
 This repository contains a project that demonstrates the application of Exploratory Data Analysis (EDA) techniques using SQL. Developed as part of my portfolio, this initiative aims to showcase my SQL proficiency and ability to analyze and extract insights from data. The repository highlights various data exploration methodologies and techniques utilized throughout the project.
@@ -6,28 +6,28 @@ This repository contains a project that demonstrates the application of Explorat
 
 
 
-## Table of Contents
+## 📖Table of Contents
 - [Introduction](#introduction)
 - [Installation and Setup](#installation-and-setup)
 - [Methodology](#methodology)
 - [Documentation](#documentation)
 
 
-## Introduction 
+## ⭐Introduction 
 This project aims to perform exploratory data analysis on a cleaned sales dataset. We aim to answer key business questions through SQL queries and generate insights to drive decision-making.
 
-## Installation and Setup
+## 🛠️Installation and Setup
 1. Environment Requirements:
    - Database Management System: **[Microsoft SQL Server Express](https://www.microsoft.com/en-IN/sql-server/sql-server-downloads?msockid=1121eefa1594621101e0fa58140f634b)** Lightweight server for hosting your SQL database.
    - SQL Client Tool: **[Microsoft SQL Server Management Studio](https://learn.microsoft.com/en-us/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)** GUI for managing and interacting with databases.
-2. **[Datasets](datasets):** Access to project datasets(csv files)
+2. **📑[Datasets](datasets):** Access to project datasets(csv files)
 3. Setup Instructions:
    - Download SQL Server Express and SQL Server Management Studio(SSMS) if not installed.
    - Open SSMS and connect to your SQL Server Instance. During this step, the connection to the server instance sometimes shows an error, so to solve the issue, click the "Trust Server Certificate" checkbox to connect to the server. 
    - Use **New Query** and make sure that you **use master** Database. Then copy the code from the initialize_database.sql script from the scripts section. This will create a database called DataWarehouse Analytics.
    - In the script file, where you have to BULK INSERT the table, replace the file destination with the destination address where your CSV file is stored.
 
-## Methodology
+## 🗂️Methodology
 1. Understanding the Dataset
    - The project begins with Database Exploration. Here we will explore the database structure, including the list of tables and their schemas.
    - Here we will use INFORMATION_SCHEMA.TABLES and  INFORMATION_SCHEMA.COLUMNS. The file database_exploration.sql can be used to achieve this.
@@ -45,7 +45,7 @@ This project aims to perform exploratory data analysis on a cleaned sales datase
    - Using GROUP BY and aggregate functions like SUM, COUNT, AVG, we have calculated metrics like total revenue, average sales, etc.
    - Applying filtering with  clauses to focus on specific time periods or product categories.
   
-## Documentation
+## 📚Documentation
 The entire process, queries, and insights were documented:
   - SQL scripts were stored in the  folder for reproducibility.
   - The Query results are posted as screenshots in the Results folder.
