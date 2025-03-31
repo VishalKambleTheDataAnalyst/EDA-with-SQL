@@ -20,7 +20,7 @@ This project aims to perform exploratory data analysis on a cleaned sales datase
 1. Environment Requirements:
    - Database Management System: **[Microsoft SQL Server Express](https://www.microsoft.com/en-IN/sql-server/sql-server-downloads?msockid=1121eefa1594621101e0fa58140f634b)** Lightweight server for hosting your SQL database.
    - SQL Client Tool: **[Microsoft SQL Server Management Studio](https://learn.microsoft.com/en-us/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)** GUI for managing and interacting with databases.
-2. **[Datasets](datsets/):** Access to project datasets(csv files)
+2. **[Datasets](datasets):** Access to project datasets(csv files)
 3. Setup Instructions:
    - Download SQL Server Express and SQL Server Management Studio(SSMS) if not installed.
    - Open SSMS and connect to your SQL Server Instance. During this step, the connection to the server instance sometimes shows an error, so to solve the issue, click the "Trust Server Certificate" checkbox to connect to the server. 
