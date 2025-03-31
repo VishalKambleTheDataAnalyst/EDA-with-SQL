@@ -49,6 +49,30 @@ This project aims to perform exploratory data analysis on a cleaned sales datase
 The entire process, queries, and insights were documented:
   - SQL scripts were stored in the  folder for reproducibility.
   - The Query results are posted as screenshots in the Results folder.
+
+
+## 📂 Repository Structure
+```
+📂 EDA-with-sql/
+├── 📂 datasets/
+│   ├── gold.dim_customers.csv      # Customers dimension table
+│   ├── gold.dim_products.csv       # Products dimension table
+│   ├── gold.fact_sales.csv         # Sales fact table
+│   ├── placeholder                 # Placeholder file, for structure reference
+├── 📂 scripts/
+│   ├── Date Exploration.sql        # SQL script for date-based analysis
+│   ├── Dimensions Exploration.sql  # SQL script exploring dimensions like customers/products
+│   ├── Magnitude Analysis.sql      # Analysis of numerical measures or metrics
+│   ├── Measure Explorations.sql    # Detailed exploration of measures in the dataset
+│   ├── Ranking Analysis.sql        # Analysis to rank data (e.g., top products/customers)
+│   ├── database_exploration.sql    # General database exploration script
+│   ├── initialize_database.sql     # Script to set up tables and load data
+│   ├── placeholder                 # Placeholder file, for structure reference
+├── LICENSE                         # MIT License file for project
+└── README.md                       # Overview and guide for the project
+
+```
+---
    
 
 
