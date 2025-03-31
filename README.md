@@ -7,10 +7,10 @@ This repository contains a project that demonstrates the application of Explorat
 
 
 ## Table of Contents
-- [Introduction](https://github.com/vishalkamble96/EDA-with-SQL/edit/main/README.md#introduction)
-- [Installation and Setup](https://github.com/vishalkamble96/EDA-with-SQL/edit/main/README.md#installation-and-setup)
-- [Methodology](https://github.com/vishalkamble96/EDA-with-SQL/edit/main/README.md#methodology)
-- [Documentation](https://github.com/vishalkamble96/EDA-with-SQL/edit/main/README.md#documentation)
+- [Introduction](#introduction)
+- [Installation and Setup](#installation-and-setup)
+- [Methodology](#methodology)
+- [Documentation](#documentation)
 
 
 ## Introduction 
