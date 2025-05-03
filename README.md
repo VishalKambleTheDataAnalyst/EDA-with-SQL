@@ -8,9 +8,10 @@ This repository contains a project that demonstrates the application of Explorat
 
 ## 📖Table of Contents
 - [Introduction](#introduction)
-- [Installation and Setup](#installation-and-setup)
-- [Methodology](#methodology)
+- [Installation and Setup](#%EF%B8%8Finstallation-and-setup)
+- [Methodology](#%EF%B8%8Fmethodology)
 - [Documentation](#documentation)
+- [Repository Structure](#repository-structure)
 
 
 ## ⭐Introduction 
@@ -51,7 +52,7 @@ The entire process, queries, and insights were documented:
   - The Query results are posted as screenshots in the Results folder.
 
 
-## 📂 Repository Structure
+## 📂Repository Structure
 ```
 📂 EDA-with-sql/
 ├── 📂 datasets/
